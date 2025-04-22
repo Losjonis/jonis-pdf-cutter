@@ -56,20 +56,32 @@ mensajes = {
         "error_not_found": "❌ Fichier '{}' introuvable.",
         "success": "✅ Terminé ! Pages {} à {} extraites dans '{}'.",
         "unknown_error": "❌ Une erreur inattendue est survenue : {}"
+    },
+    "it": {
+        "intro": "Scegli la tua lingua:",
+        "ask_file": "📄 Nome del file PDF originale (includi .pdf): ",
+        "ask_start": "📘 Pagina iniziale: ",
+        "ask_end": "📕 Pagina finale: ",
+        "ask_output": "💾 Nome per il nuovo PDF (includi .pdf): ",
+        "error_range": "❌ Il PDF ha solo {} pagine.",
+        "error_not_found": "❌ File '{}' non trovato.",
+        "success": "✅ Fatto! Pagine da {} a {} estratte in '{}'.",
+        "unknown_error": "❌ Si è verificato un errore imprevisto: {}"
     }
 }
 
 # === Menú de idiomas ===
 print("Choose your language:")
-print("1. English\n2. Spanish\n3. Swedish\n4. German\n5. French")
-opcion = input("👉 Option (1-5): ")
+print("1. English\n2. Spanish\n3. Swedish\n4. German\n5. French\n6. Italian")
+opcion = input("👉 Option (1-6): ")
 
 idioma = {
     "1": "en",
     "2": "es",
     "3": "sv",
     "4": "de",
-    "5": "fr"
+    "5": "fr",
+    "6": "it"
 }.get(opcion, "en")
 
 txt = mensajes[idioma]
