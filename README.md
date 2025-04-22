@@ -112,6 +112,8 @@ Jonis PDF Cutter est un programme Python en ligne de commande pour extraire des 
 python jonis-pdf-cutter.py
 ```
 
+---
+
 ## 🇮🇹 Italiano
 
 ### Descrizione  
